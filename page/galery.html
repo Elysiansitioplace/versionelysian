@@ -7,10 +7,10 @@
         <link rel="shortcut icon" href="https://i.postimg.cc/pTC5dZDj/Ativo-9-8.png">
         <script src="https://kit.fontawesome.com/266015c250.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="../css/headerdesk.css">
-        <link rel="stylesheet" href="../css/maingalery.css">
+        <link rel="stylesheet" href="../css/galeria.css">
         <link rel="stylesheet" href="../css/footerdesk.css">
         <link rel="stylesheet" media="screen and (max-width:700px)" href="../mob/mobheader.css">
-        <link rel="stylesheet" media="screen and (max-width:700px)" href="../mob/maingalery.css">
+        <link rel="stylesheet" media="screen and (max-width:700px)" href="../mob/galeriamob.css">
         <link rel="stylesheet" media="screen and (max-width:700px)" href="../mob/section.css">
         <link rel="stylesheet" media="screen and (max-width:700px)" href="../mob/footer.css">
         <title>Elysian Place</title>
@@ -23,6 +23,7 @@
            box-sizing: 0px;
            padding: 0px;
            margin: 0px;
+           background-color: #175ED4;
            font-family: Arial, Helvetica, sans-serif;
        }
        a{
@@ -58,6 +59,8 @@
 
 
     </style>
+
+
    
     <header class="headerpink">
 
@@ -108,8 +111,35 @@
 
     </header>
 
+    
+    <article class="fundo-imagemdestaque">
+
+        <div class="imagemdestaque-fundo">
+
+            <div class="imagemdestaque-menu">
+
+                <p id="imagemdestaque-textlogo">Elysian Place</p>
+                
+                <div class="fundo-fechardestaque">
+                    <p id="texto-inforfechar"> Sair</p>
+                    <i class="fa-solid fa-xmark" id="icon-fecharmenudestaque"></i>
+                </div>
+               
+            </div>
+        
+            <div class="aparecer-imagemdestaque">
+                <img src="https://i.postimg.cc/pdKMKVXQ/ip-WZCBr5-t-2.jpg" alt="" id="imagem-destaque">
+            </div>
+
+        </div>
+        
+
+    
+    </article>
+
     <main>
 
+        <!--/*parte um - texto e opções*/-->   
         <article class="desk-divum">
             
         <div class="desk-fundogaleria">
@@ -131,15 +161,19 @@
         </div>
         </article>
 
+        <!--/*parte dois - texto e opções*/-->
         <article class="desk-divum">
+
         <div class="fundo-blocdois">
 
             <div id="blocdois-planum">
                 <img src="https://i.postimg.cc/gj9cmL7h/90ya-X6j-U-t.jpg" alt="" id="img-plabloc">
             </div>
+
             <div id="blocdois-plandois">
                 <img src="https://i.postimg.cc/bJ8cgXs7/Atibaia-01-Rogerio-Pinheiro.jpg" alt="" id="img-plabloc">
             </div>
+
             <div id="blocdois-plantres" >
                 <img src="https://i.postimg.cc/pdKMKVXQ/ip-WZCBr5-t-2.jpg" class="myslidegaleria" alt="" id="img-plabloc">
                 <img src="https://i.postimg.cc/8ch1Rghk/IMG-0416-Editar.jpg" class="myslidegaleria" alt="" id="img-plabloc">      
@@ -179,7 +213,8 @@
     </main>
 
     <article class="sect-galeriaimagens">
-    
+
+        <!--/*galeria imagem - menu opções*/-->   
         <div class="sect-categoria">
         <p id="categoria-galeriageral">Todas as Fotos</p>
         <p id="categoria-galeria">Casa</p>
@@ -190,9 +225,9 @@
         <p id="categoria-galeria">Churrasco</p>
         <p id="categoria-galeria">Jogos</p>
         <p id="categoria-galeria">Piscina</p>
-
         </div>
 
+        <!--/*galeria imagem - fechar menu opções*/-->   
         <div class="fechar-categoria">
             <i class="fa-solid fa-xmark" id="icon-fecharcategoria"></i>
         </div>
@@ -209,8 +244,6 @@
             </ul>
         
         </div>
-
-
 
         <div class="sect-imagens">
 
@@ -471,7 +504,7 @@
 
 
         </div>
-
+        </div>
 
     </article>
 
